@@ -1,0 +1,637 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 26px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo a,
+    header .logo img
+    {
+        width: 130px;
+    }
+
+
+    header .hot_line
+    {
+        width: 50px;
+    }
+
+    header .hot_line .icon
+    {
+        margin: 0;
+    }
+
+    header .hot_line span
+    {
+        display: none;
+    }
+
+
+    header .menu
+    {
+        padding-top: 105px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        width: 50px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .text_block h4
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .text_block table
+    {
+        width: 768px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 160px;
+        padding-bottom: 50px;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+
+    .first_section .info .links
+    {
+        margin-top: 30px;
+    }
+
+    .first_section .info .links > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .first_section .info .links a
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------------
+        Second section
+    --------------------*/
+    .second_section .cont
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .second_section .info .title
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+
+    .second_section .info .links
+    {
+        margin-top: 30px;
+    }
+
+    .second_section .info .links > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .second_section .info .links a
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        Third section
+    -------------------*/
+    .third_section .cont
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .third_section .info .title
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+
+    .third_section .info .links
+    {
+        margin-top: 30px;
+    }
+
+    .third_section .info .links > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .third_section .info .links a
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row > *
+    {
+        width: calc(100% - 1px);
+    }
+
+
+    .products .product .thumb
+    {
+        padding-bottom: 68%;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .slide .article
+    {
+        min-height: 260px;
+    }
+
+    .articles .slide .article .info
+    {
+        padding: 20px;
+    }
+
+    .articles .slide .article .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .articles .owl-carousel .owl-nav button
+    {
+        top: 15px;
+        bottom: auto;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .articles .article .info
+    {
+        padding: 20px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*------------------------
+        Working conditions
+    ------------------------*/
+    .working_conditions .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*------------------
+        Working head
+    ------------------*/
+    .working_head .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    /*------------------
+        Working info
+    ------------------*/
+    .working_info .data .head .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .working_info .data .head .title b
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+
+    .working_info .with_personnel .block_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .vacancy .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    /*-------------------
+        Paroduct info
+    -------------------*/
+    .paroduct_info .product_name
+    {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+
+
+    /*------------------
+        Product desc
+    ------------------*/
+    .product_desc .block_title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    /*--------------------
+        Product accord
+    --------------------*/
+    .product_accord .item .head
+    {
+        padding: 25px 0;
+    }
+
+    .product_accord .item .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        padding-right: 45px;
+    }
+
+    .product_accord .item .title:after
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    /*-----------------------
+        Pharmacovigilance
+    -----------------------*/
+    .pharmacovigilance .text_block
+    {
+        padding-top: 20px;
+    }
+
+
+    .pharmacovigilance .messangers
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------
+        Hot line info
+    -------------------*/
+    .hot_line_info .item .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .hot_line_info .item .boss
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .info .val
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head .article_name
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_info .head .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    /*-------------------
+        About mission
+    -------------------*/
+    .about_mission .block_title
+    {
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+
+
+    /*------------------------
+        About distribution
+    ------------------------*/
+    .about_distribution
+    {
+        min-height: 370px;
+    }
+
+    .about_distribution .img
+    {
+        min-width: 763px;
+    }
+
+
+
+    /*------------------
+        About safety
+    ------------------*/
+    .about_safety .items .item
+    {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+
+
+    /*---------------------
+        Production info
+    ---------------------*/
+    .production_info .head .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    .production_info .stats .item .val
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    .production_info .substances .item
+    {
+        flex-wrap: wrap;
+    }
+
+    .production_info .substances .item + .item
+    {
+        margin-top: 30px;
+    }
+
+    .production_info .substances .item .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .production_info .substances .item .val
+    {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0;
+    }
+
+
+
+    .production_info .powers2020 .item .val
+    {
+        margin-left: 15px;
+    }
+
+
+
+    .production_info .history .block_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+    .production_info .history .item .year
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        height: 60px;
+    }
+
+    .production_info .history .item .year:after
+    {
+        top: 7px;
+        right: -20px;
+
+        width: 46px;
+        height: 46px;
+    }
+
+
+
+    .production_info .future .block_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+    .production_info .future .year
+    {
+        font-size: 17px;
+        line-height: 24px;
+
+        height: 40px;
+        padding: 8px 25px;
+    }
+
+
+
+    .production_info .distant_future .item
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-----------
+        Share
+    -----------*/
+    .share .name
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more
+    {
+        margin-top: 30px;
+    }
+
+
+    .load_more button
+    {
+        font-size: 14px;
+        line-height: 40px;
+
+        min-width: 200px;
+        height: 42px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .notice
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

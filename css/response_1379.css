@@ -1,0 +1,433 @@
+@media print, (max-width: 1379px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 40px);
+    }
+
+
+
+    .one_page
+    {
+        height: auto;
+    }
+
+    .one_page > section
+    {
+        padding: 0;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu .item > a
+    {
+        padding: 17px 22px;
+    }
+
+    header .menu .item > a:before
+    {
+        left: 23px;
+    }
+
+
+    header .menu .sub_menu
+    {
+        width: 280px;
+    }
+
+    header .menu .sub_menu a
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        padding: 9px 22px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .vacancies_banner .logo
+    {
+        padding: 25px;
+    }
+
+    aside .vacancies_banner .info
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        padding: 25px;
+    }
+
+    aside .vacancies_banner .info .phone
+    {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+
+
+    aside .advantages_banner .info
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        padding: 25px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 650px;
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+
+
+    .first_section .info
+    {
+        width: 540px;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .first_section .info .desc
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .first_section .info .links
+    {
+        margin-top: 40px;
+    }
+
+    .first_section .info .links a
+    {
+        width: 250px;
+    }
+
+
+
+    /*--------------------
+        Second section
+    --------------------*/
+    .second_section .cont
+    {
+        min-height: 650px;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+
+    .second_section .info
+    {
+        width: 540px;
+    }
+
+    .second_section .info .title
+    {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .second_section .info .desc
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .second_section .info .links
+    {
+        margin-top: 40px;
+    }
+
+    .second_section .info .links a
+    {
+        width: 250px;
+    }
+
+
+    .second_section .img
+    {
+        width: 877px;
+        height: 500px;
+    }
+
+
+
+    /*-------------------
+        Third section
+    -------------------*/
+    .third_section .cont
+    {
+        min-height: 650px;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+
+    .third_section .info
+    {
+        width: 540px;
+    }
+
+    .third_section .info .title
+    {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .third_section .info .desc
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .third_section .info .links
+    {
+        margin-top: 40px;
+    }
+
+    .third_section .info .links a
+    {
+        width: 250px;
+    }
+
+
+
+    /*------------------------
+        Working conditions
+    ------------------------*/
+    .working_conditions .item
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        padding: 25px;
+    }
+
+
+
+    /*-------------------
+        Paroduct info
+    -------------------*/
+    .paroduct_info .product_name
+    {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+
+
+    /*--------------------
+        Product accord
+    --------------------*/
+    .product_accord .item .title
+    {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+
+
+    /*-------------------
+        Hot line info
+    -------------------*/
+    .hot_line_info .item
+    {
+        padding: 25px;
+    }
+
+
+    .hot_line_info .item .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .hot_line_info .item .boss
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        margin-top: 12px;
+    }
+
+
+    .hot_line_info .item .contacts
+    {
+        margin-top: 25px;
+    }
+
+    .hot_line_info .item .contacts .val
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .hot_line_info .postal_address .val
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .slide .article .info
+    {
+        width: 685px;
+        padding: 40px;
+    }
+
+    .articles .slide .article .name
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+
+    .articles .owl-carousel .owl-nav button
+    {
+        bottom: 30px;
+    }
+
+    .articles .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 81px;
+    }
+
+    .articles .owl-carousel .owl-nav button.owl-next
+    {
+        right: 25px;
+    }
+
+
+
+    /*---------------------
+        About marketing
+    ---------------------*/
+    .about_marketing .priorities .row > *
+    {
+        width: calc(100% - 45px);
+    }
+
+
+    .about_marketing .priorities .icon
+    {
+        width: 63px;
+    }
+
+    .about_marketing .priorities .item .icon img
+    {
+        margin: 0 auto;
+    }
+
+
+
+    /*------------------------
+        About distribution
+    ------------------------*/
+    .about_distribution
+    {
+        min-height: 550px;
+    }
+
+    .about_distribution .img
+    {
+        min-width: 1134px;
+    }
+
+
+
+    /*------------------
+        About safety
+    ------------------*/
+    .about_safety .items .row
+    {
+        margin-left: -40px;
+    }
+
+    .about_safety .items .row > *
+    {
+        width: calc(25% - 40px);
+        margin-left: 40px;
+    }
+
+
+    .about_safety .items .item br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------------
+        Production info
+    ---------------------*/
+    .production_info .head .img
+    {
+        right: -120px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .notice
+    {
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

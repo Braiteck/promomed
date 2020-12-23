@@ -1,0 +1,1043 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+    .block.bg
+    {
+        padding: 50px 0;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo a,
+    header .logo img
+    {
+        width: 140px;
+    }
+
+
+    header .langs
+    {
+        margin-left: 0;
+    }
+
+    header .langs a
+    {
+        font-size: 12px;
+
+        width: 56px;
+    }
+
+
+    header .hot_line
+    {
+        font-size: 10px;
+
+        margin-left: 10px;
+        padding-right: 13px;
+    }
+
+    header .hot_line .icon
+    {
+        margin-right: 8px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+
+    .page_title
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .page_head .filter > *
+    {
+        width: calc(50% - 1px);
+        max-width: calc(100% - 1px);
+
+        align-self: center;
+    }
+
+
+    .page_head .filter a
+    {
+        font-size: 10px;
+        line-height: 14px;
+
+        width: 100%;
+        padding: 8px;
+
+        text-align: center;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        width: 100%;
+    }
+
+    .block_head .all_link
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 23px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text_block h3
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .text_block h4
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .text_block .big
+    {
+        font-size: 16px;
+    }
+
+    .text_block img
+    {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .text_block img.left,
+    .text_block img.right
+    {
+        float: none;
+
+        max-width: 100%;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(100% - 20px);
+    }
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 30px;
+    }
+
+
+    .text_block table th,
+    .text_block table td
+    {
+        padding: 10px 15px;
+    }
+
+
+    .text_block .gallery .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 0;
+        padding-top: 120px;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .first_section .info .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 25px;
+    }
+
+    .first_section .info .links a
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        width: 210px;
+        height: 46px;
+    }
+
+
+
+    /*--------------------
+        Second section
+    --------------------*/
+    .second_section .cont
+    {
+        min-height: 0;
+    }
+
+    .second_section .info .title
+    {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .second_section .info .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 25px;
+    }
+
+    .second_section .info .links a
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        width: 210px;
+        height: 46px;
+    }
+
+
+    .second_section .img
+    {
+        position: relative;
+        right: 0;
+
+        width: calc(100% + 60px);
+        height: auto;
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------------
+        Third section
+    -------------------*/
+    .third_section .cont
+    {
+        min-height: 0;
+        padding-top: 60px;
+    }
+
+    .third_section .info .title
+    {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .third_section .info .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 25px;
+    }
+
+    .third_section .info .links a
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        width: 210px;
+        height: 46px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .slide .article .info
+    {
+        width: 100%;
+        padding: 20px 140px 20px 20px;
+    }
+
+    .articles .slide .article .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .articles .owl-carousel .owl-nav button
+    {
+        bottom: 18px;
+    }
+
+    .articles .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 71px;
+    }
+
+    .articles .owl-carousel .owl-nav button.owl-next
+    {
+        right: 15px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .articles .row > *.tablet_hide
+    {
+        display: block;
+    }
+
+
+
+    /*------------------------
+        Working conditions
+    ------------------------*/
+    .working_conditions
+    {
+        padding-bottom: 50px;
+    }
+
+
+    .working_conditions .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    /*------------------
+        Working head
+    ------------------*/
+    .working_head .cont
+    {
+        min-height: 360px;
+        padding-bottom: 40px;
+    }
+
+
+    .working_head .info
+    {
+        width: 100%;
+    }
+
+    .working_head .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .working_head .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*------------------
+        Working info
+    ------------------*/
+    .working_info .data .head .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .working_info .data .head .title b
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+
+
+    .working_info .with_personnel
+    {
+        padding: 50px 0;
+    }
+
+    .working_info .with_personnel .block_title
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .vacancy
+    {
+        padding: 20px;
+    }
+
+    .vacancies .vacancy .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .info
+    {
+        padding: 20px;
+    }
+
+    .vacancy_info .info .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-bottom: 15px;
+    }
+
+
+
+    /*-------------------
+        Paroduct info
+    -------------------*/
+    .paroduct_info .image
+    {
+        width: 100%;
+        height: 380px;
+        margin-bottom: 25px;
+    }
+
+
+    .paroduct_info .data
+    {
+        width: 100%;
+    }
+
+    .paroduct_info .product_name
+    {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+
+
+    /*------------------
+        Product desc
+    ------------------*/
+    .product_desc .block_title
+    {
+        font-size: 26px;
+        line-height: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .product_desc table td
+    {
+        display: block;
+    }
+
+    .product_desc table td + td
+    {
+        padding-left: 0;
+    }
+
+    .product_desc table td.name
+    {
+        width: 100%;
+        min-width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .product_desc table tr + tr
+    {
+        border-top: 1px solid #ececec;
+    }
+
+    .product_desc table tr + tr td
+    {
+        border: none;
+    }
+
+    .product_desc table tr + tr td.val
+    {
+        padding-top: 0;
+    }
+
+
+
+    /*--------------------
+        Product accord
+    --------------------*/
+    .product_accord .item .title
+    {
+        font-size: 26px;
+        line-height: 28px;
+
+        padding-right: 50px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row > *
+    {
+        width: calc(50% - 1px);
+    }
+
+    .products .row > *.tablet_hide
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------------
+        Pharmacovigilance
+    -----------------------*/
+    .pharmacovigilance .text_block
+    {
+        padding-top: 40px;
+    }
+
+    .pharmacovigilance .text_block ul li
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*-------------------
+        Hot line info
+    -------------------*/
+    .hot_line_info .item
+    {
+        padding: 20px;
+    }
+
+
+    .hot_line_info .item .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .hot_line_info .item .boss
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-top: 12px;
+    }
+
+
+    .hot_line_info .item .contacts > *
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    .hot_line_info .postal_address .val
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    /*---------------------
+        Disclosure info
+    ---------------------*/
+    .disclosure_info
+    {
+        padding-bottom: 60px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .info .item
+    {
+        width: calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+
+    .contacts_info .info .val
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+    .contacts_info .map
+    {
+        margin-top: 40px;
+    }
+
+    .contacts_info #map
+    {
+        height: 380px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head .article_name
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_info .head .cont
+    {
+        min-height: 320px;
+        padding-bottom: 40px;
+    }
+
+
+    .about_info .head .info
+    {
+        width: 100%;
+    }
+
+    .about_info .head .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .about_info .head .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*-------------------
+        About mission
+    -------------------*/
+    .about_mission .block_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+    .about_mission .text_block .big
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*---------------------
+        About marketing
+    ---------------------*/
+    .about_marketing
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .about_marketing .col_left
+    {
+        padding: 50px 0 40px;
+    }
+
+    .about_marketing .col_right
+    {
+        padding: 50px 20px;
+    }
+
+
+    .about_marketing .block_title
+    {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .about_marketing .title
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about_marketing .number_one
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 25px;
+        padding: 20px;
+    }
+
+
+    .about_marketing .priorities
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*----------------------
+        About innovation
+    ----------------------*/
+    .about_innovation .block_title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 25px;
+    }
+
+
+
+    /*------------------------
+        About distribution
+    ------------------------*/
+    .about_distribution
+    {
+        min-height: 390px;
+        padding: 50px 0;
+    }
+
+
+    .about_distribution .block_title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .about_distribution .text_block
+    {
+        width: 275px;
+    }
+
+
+    .about_distribution .img
+    {
+        min-width: 804px;
+    }
+
+
+
+    /*------------------
+        About safety
+    ------------------*/
+    .about_safety
+    {
+        margin-bottom: 50px;
+        padding: 50px 0;
+    }
+
+
+    .about_safety .items .row > *
+    {
+        width: calc(100% - 40px);
+    }
+
+
+
+    /*---------------------
+        Production info
+    ---------------------*/
+    .production_info .head .cont
+    {
+        min-height: 320px;
+        padding-bottom: 40px;
+    }
+
+    .production_info .head .info
+    {
+        width: 100%;
+    }
+
+    .production_info .head .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .production_info .head .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .production_info .head .img
+    {
+        display: none;
+    }
+
+
+
+    .production_info .stats .item .val
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .production_info .stats .items
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+    .production_info .stats .items > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+
+    .production_info .substances .data
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 25px 20px;
+    }
+
+    .production_info .substances .item + .item
+    {
+        margin-top: 20px;
+    }
+
+    .production_info .substances .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .production_info .substances .item .val
+    {
+        width: 170px;
+        min-width: 170px;
+    }
+
+    .production_info .substances .item .val span
+    {
+        font-size: 24px;
+    }
+
+
+
+    .production_info .history .block_title
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        margin-bottom: 25px;
+    }
+
+    .production_info .history .row > *,
+    .production_info .history .item:nth-child(4)
+    {
+        width: calc(100% - 40px);
+    }
+
+
+
+    .production_info .future .block_title
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        margin-bottom: 25px;
+    }
+
+    .production_info .future .row > *
+    {
+        width: calc(100% - 30px);
+    }
+
+
+
+    .production_info .distant_future .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more
+    {
+        margin-top: 35px;
+    }
+
+
+    .load_more button
+    {
+        font-size: 14px;
+        line-height: 46px;
+
+        min-width: 220px;
+        height: 48px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .notice
+    {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+    }
+
+    footer .logo img
+    {
+        margin: 0 auto;
+    }
+
+
+    footer .menu
+    {
+        display: none;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .creator
+    {
+        width: 100%;
+        margin-top: 5px;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 20px;
+    }
+}
