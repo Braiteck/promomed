@@ -212,6 +212,22 @@
 
 
 
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog.accordion .item .head
+    {
+        padding: 15px 50px 15px 15px;
+    }
+
+    .catalog.accordion .item .title
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
     /*--------------
         Products
     --------------*/
@@ -486,16 +502,21 @@
     ---------------------*/
     .production_info .head .title
     {
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 24px;
     }
 
 
 
+    .production_info .stats .item .name
+    {
+        font-size: 14px;
+    }
+
     .production_info .stats .item .val
     {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 17px;
+        line-height: 21px;
     }
 
 
@@ -543,21 +564,16 @@
         margin-bottom: 20px;
     }
 
+
+    .production_info .history .item
+    {
+        padding: 25px 20px;
+    }
+
     .production_info .history .item .year
     {
         font-size: 18px;
         line-height: 22px;
-
-        height: 60px;
-    }
-
-    .production_info .history .item .year:after
-    {
-        top: 7px;
-        right: -20px;
-
-        width: 46px;
-        height: 46px;
     }
 
 

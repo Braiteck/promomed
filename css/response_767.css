@@ -565,6 +565,17 @@
 
 
 
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog.accordion .item .title
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
     /*--------------
         Products
     --------------*/
@@ -576,6 +587,12 @@
     .products .row > *.tablet_hide
     {
         display: block;
+    }
+
+
+    .products .product .name
+    {
+        height: auto !important;
     }
 
 
@@ -879,21 +896,21 @@
 
 
 
+    .production_info .stats .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .production_info .stats .row > *.big
+    {
+        width: calc(100% - 20px);
+    }
+
+
     .production_info .stats .item .val
     {
-        font-size: 20px;
-        line-height: 24px;
-    }
-
-    .production_info .stats .items
-    {
-        column-gap: 0;
-        column-count: 1;
-    }
-
-    .production_info .stats .items > * + *
-    {
-        margin-top: 10px;
+        font-size: 18px;
+        line-height: 22px;
     }
 
 
@@ -936,12 +953,6 @@
         line-height: 32px;
 
         margin-bottom: 25px;
-    }
-
-    .production_info .history .row > *,
-    .production_info .history .item:nth-child(4)
-    {
-        width: calc(100% - 40px);
     }
 
 

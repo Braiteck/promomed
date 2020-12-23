@@ -157,6 +157,12 @@ $(window).on('load', () => {
 				parallax = new Parallax(scene2)
 		}
 	}
+
+
+	// Товары
+	window.matchMedia('(max-width: 1023px)').matches
+		? $('.products .desktop_list').removeClass('list').addClass('row')
+		: $('.products .desktop_list').removeClass('row').addClass('list')
 })
 
 
@@ -176,6 +182,12 @@ $(window).resize(() => {
 			? $('header').addClass('fixed')
 			: $('header').removeClass('fixed')
 	}, 100)
+
+
+	// Товары
+	window.matchMedia('(max-width: 1023px)').matches
+		? $('.products .desktop_list').removeClass('list').addClass('row')
+		: $('.products .desktop_list').removeClass('row').addClass('list')
 })
 
 

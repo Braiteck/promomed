@@ -307,9 +307,46 @@
 
 
 
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog.accordion .item .head
+    {
+        padding: 15px 62px 15px 20px;
+    }
+
+    .catalog.accordion .item .head:after
+    {
+        top: -8px;
+        right: 20px;
+
+        width: 16px;
+        height: 16px;
+    }
+
+    .catalog.accordion .item.active .head:after
+    {
+        top: 8px;
+    }
+
+    .catalog.accordion .item .title
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+
     /*--------------
         Products
     --------------*/
+    .products .titles
+    {
+        display: none;
+    }
+
+
+
     .products .row
     {
         --products_count: 3;
@@ -821,13 +858,13 @@
     .production_info .head .cont
     {
         min-height: 380px;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
 
 
     .production_info .head .info
     {
-        width: 430px;
+        width: 280px;
     }
 
     .production_info .head .title
@@ -842,6 +879,17 @@
         line-height: 23px;
     }
 
+    .production_info .head .link
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-top: 20px;
+        padding: 13px 29px;
+
+        border-radius: 30px;
+    }
+
 
     .production_info .head .img
     {
@@ -851,31 +899,10 @@
 
 
 
-    .production_info .stats .col_left,
-    .production_info .stats .col_right
-    {
-        width: 100%;
-    }
-
-
-    .production_info .stats .col_left > * + *,
-    .production_info .stats .col_right > * + *,
-    .production_info .stats .col_right
-    {
-        margin-top: 25px;
-    }
-
-
     .production_info .stats .item .val
     {
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    .production_info .stats .items
-    {
-        column-gap: 30px;
-        column-count: 2;
+        font-size: 21px;
+        line-height: 25px;
     }
 
 
@@ -911,6 +938,11 @@
 
 
 
+    .production_info .history
+    {
+        padding-bottom: 60px;
+    }
+
     .production_info .history .block_title
     {
         font-size: 28px;
@@ -919,36 +951,56 @@
         margin-bottom: 30px;
     }
 
-    .production_info .history .row
+
+    .production_info .history .row > *
     {
-        margin-bottom: -40px;
-        margin-left: -40px;
+        width: 100%;
     }
 
-    .production_info .history .row > *,
-    .production_info .history .item:nth-child(4)
+    .production_info .history .row > * + *
     {
-        width: calc(50% - 40px);
-        margin-bottom: 40px;
-        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .production_info .history .row > *:nth-child(even)
+    {
+        margin-left: 0;
+    }
+
+
+    .production_info .history .item
+    {
+        padding: 25px;
+    }
+
+    .production_info .history .item:before,
+    .production_info .history .item:after
+    {
+        display: none;
     }
 
     .production_info .history .item .year
     {
-        font-size: 20px;
-        line-height: 24px;
-
-        height: 70px;
-        padding: 10px 20px;
+        font-size: 22px;
+        line-height: 26px;
     }
 
-    .production_info .history .item .year:after
+    .production_info .history .item .year:after,
+    .production_info .history .row > *:first-child .year:after,
+    .production_info .history .row > *:nth-child(even) .year:after
     {
-        top: 9px;
-        right: -24px;
+        top: 100%;
+        right: 0;
+        bottom: auto;
+        left: 0;
 
-        width: 53px;
-        height: 53px;
+        height: 30px;
+        margin: auto;
+    }
+
+    .production_info .history .row > *:last-child .year:after
+    {
+        height: 60px;
     }
 
     .production_info .history .item .desc
@@ -979,6 +1031,11 @@
 
         height: 52px;
         padding: 10px 30px;
+    }
+
+    .production_info .future .text_block ul li + li
+    {
+        margin-top: 15px;
     }
 
 
@@ -1013,7 +1070,7 @@
         width: calc(33.333% - 20px);
     }
 
-    .production_info .distant_future .img
+    .production_info .distant_future .parallax
     {
         position: relative;
         left: 0;
@@ -1022,6 +1079,18 @@
         height: auto;
         margin-top: 40px;
         margin-left: 20px;
+    }
+
+    .production_info .distant_future .img
+    {
+        position: relative !important;
+        bottom: 0;
+        left: 0 !important;
+
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
     }
 
 

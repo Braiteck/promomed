@@ -543,9 +543,66 @@
 
 
 
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog.accordion .item .head
+    {
+        padding: 16px 70px 16px 22px;
+    }
+
+    .catalog.accordion .item .head:after
+    {
+        top: -9px;
+        right: 22px;
+
+        width: 18px;
+        height: 18px;
+    }
+
+    .catalog.accordion .item.active .head:after
+    {
+        top: 9px;
+    }
+
+    .catalog.accordion .item .title
+    {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+
+
+    /*--------------
+        Alphabet
+    --------------*/
+    .alphabet a
+    {
+        line-height: 38px;
+
+        width: 36px;
+        height: 36px;
+    }
+
+
+
     /*--------------
         Products
     --------------*/
+    .products .titles .col_name
+    {
+        width: 330px;
+        min-width: 330px;
+    }
+
+    .products .titles .col_mnn
+    {
+        width: 175px;
+        min-width: 175px;
+    }
+
+
+
     .products .product
     {
         padding: 25px;
@@ -555,6 +612,26 @@
     {
         font-size: 21px;
         line-height: 25px;
+    }
+
+
+
+    .products .list .product
+    {
+        padding: 10px;
+    }
+
+    .products .list .product .thumb
+    {
+        width: 125px;
+        min-width: 125px;
+    }
+
+    .products .list .product .name,
+    .products .list .product .mnn
+    {
+        width: 175px;
+        min-width: 175px;
     }
 
 
@@ -889,7 +966,7 @@
 
     .production_info .head .info
     {
-        width: 460px;
+        width: 320px;
     }
 
     .production_info .head .title
@@ -915,33 +992,28 @@
 
 
 
-    .production_info .stats .col_left
+    .production_info .stats .row
     {
-        width: 450px;
+        margin-bottom: -25px;
+        margin-left: -20px;
     }
 
-    .production_info .stats .col_right
+    .production_info .stats .row > *
     {
-        width: calc(100% - 490px);
+        width: calc(25% - 20px);
+        margin-bottom: 25px;
+        margin-left: 20px;
     }
 
-
-    .production_info .stats .item .name
+    .production_info .stats .row > *.big
     {
-        margin-bottom: 5px;
+        width: calc(50% - 20px);
     }
 
     .production_info .stats .item .val
     {
-        font-size: 28px;
-        line-height: 32px;
-    }
-
-
-    .production_info .stats .items
-    {
-        column-gap: 0;
-        column-count: 1;
+        font-size: 26px;
+        line-height: 30px;
     }
 
 
@@ -986,40 +1058,15 @@
 
 
 
-    .production_info .history .row
+    .production_info .history .item
     {
-        margin-bottom: -50px;
-        margin-left: -50px;
-
-        flex-wrap: wrap;
+        padding: 30px;
     }
-
-    .production_info .history .row > *,
-    .production_info .history .item:nth-child(4)
-    {
-        width: calc(50% - 50px);
-        min-width: 0 !important;
-        margin-bottom: 50px;
-        margin-left: 50px;
-    }
-
 
     .production_info .history .item .year
     {
-        font-size: 22px;
-        line-height: 26px;
-
-        height: 90px;
-        padding: 10px 30px;
-    }
-
-    .production_info .history .item .year:after
-    {
-        top: 11px;
-        right: -34px;
-
-        width: 68px;
-        height: 68px;
+        font-size: 26px;
+        line-height: 30px;
     }
 
 
@@ -1051,6 +1098,11 @@
     {
         font-size: 15px;
         line-height: 23px;
+    }
+
+    .production_info .future .text_block ul li + li
+    {
+        margin-top: 20px;
     }
 
 
